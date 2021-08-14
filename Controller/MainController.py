@@ -1,11 +1,13 @@
-from Model import Login
+from Model import Personagem
 from View import TelaDeLogin
 import TutorialController
+import CombatController
 
 
 class MainController:
     telaLogin = TelaDeLogin.TelaDeLogin(str(input("Qual o nome do seu personagem? ")))
-    personagem = Login.Login(telaLogin.GetName())
+    personagem = Personagem.Personagem(telaLogin.GetName(), "personagem")
+
 
     def escolha(Login):
         escolha = str(input("O nome do seu personagem é: " + Login.name + ", deseja alterar?").lower())
@@ -17,3 +19,9 @@ class MainController:
 
     tutorial = TutorialController.Tutorial(personagem.name)
     tutorial.StartTutorial()
+
+    vilao = Personagem.Personagem("vilão 1", "vilão")
+
+    CombatController.Combat(personagem.life, vilao.life).combat()
+
+
