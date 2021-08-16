@@ -9,7 +9,9 @@ class Tutorial:
 
 
     def StartTutorial(self):
-        print("Olá " + self.GetName + " seja bem vindo(a) a esta aventura, aqui bla bla bla bla não sei o que escrever auqi"
-                                      "me ajuda carol............ este é um jogo de escolhas, para você jogar, você deverá"
-                                      "escolher seus caminhos, para escolher, você deve responder com 1, ou 2, como estará indicado"
-                                      "ao lado de cada pergunta dividido por parênteses ()") # carol revisa isso plssss
+        print("Olá " + self.GetName + " seja bem vindo(a), caro herói. Espero que não tenha encontrado muitas dificuldades para seguir minhas instruções até aqui."
+                                      "Esse é um mundo perigoso, onde cada escolha pode significar uma mudança irreversível em sua história."
+                                      "Portanto, sempre pense bem antes de fazer suas escohas."
+                                      "Para decidir o rumo de sua aventura, você deverá responder com 1, ou 2, conforme indicado"
+                                      "ao lado de cada pergunta dividido por parênteses ()"
+                                      "Você entendeu?")
