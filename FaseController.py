@@ -43,4 +43,4 @@ class FaseController:
                                   "Acontece que... Eu não sou um lutador muito bom. Se eu for atrás do menino, seremos"
                                   "dois desaparecidos. Por favor, se você puder me ajudar, escolha 1. Se não... Escolha 2."))
         if escolhamissao == 1:
-            print("Além de tudo você é uma pessoa bondosa! Obrigado," self.getName "sabia que podia contar com você.")
+            print("Além de tudo você é uma pessoa bondosa! Obrigado," + self._Name + "sabia que podia contar com você.")
