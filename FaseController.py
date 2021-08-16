@@ -1,8 +1,7 @@
 class FaseController:
 
     def tutorial(self):
-        escolha = int(input(
-            "Você entendeu? Posso repetir se quiser. Caso tenha entendido, escolha 1. Se quiser que eu repita, escolha 2."))
+        escolha = int(input("Você entendeu? Posso repetir se quiser. Caso tenha entendido, escolha 1. Se quiser que eu repita, escolha 2."))
 
     if escolha == 1:
         self.escolhaUm()
