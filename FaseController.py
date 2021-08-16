@@ -24,13 +24,23 @@ class FaseController:
             self.escolhaTres()
         else:
             self.escolhaQuatro()
-            
+
     def escolhaTres(self):
         print("Você recebeu HIDROMEL. Tem um gosto bem normal.")
         print("Você é do tipo que não gosta de arriscar, não é?"
               "Sinto informar que vai arriscar muito nessa missão, mas o pagamento vai valer a pena, eu garanto.")
-        
+
     def escolhaQuatro(self):
         print("Você recebeu uma garrafa de SANGUE DE BRUXA. É a melhor coisa que você já provou na vida!")
         print("Hmmm... Gostei de você. Você busca aventura nas menores coisas."
-              "Agora tenho cerrteza de que você é a pessoa certa para esse serviço.")
+              "Agora tenho certeza de que você é a pessoa certa para esse serviço.")
+
+    def missao(self):
+        escolhamissao = int(input("Muito bem, chega de enrolação. Eu preciso de sua ajuda para encontrar o filho do meu patrão."
+                                  "O menino é um pestinha e eu estava encarregado de cuidar dele, mas, durante a madrugada,"
+                                  "o garoto sumiu, sem mais nem menos."
+                                  "Não posso deixar meu patrão saber disso, ou ele vai cortar minha cabeça."
+                                  "Acontece que... Eu não sou um lutador muito bom. Se eu for atrás do menino, seremos"
+                                  "dois desaparecidos. Por favor, se você puder me ajudar, escolha 1. Se não... Escolha 2."))
+        if escolhamissao == 1:
+            print("Além de tudo você é uma pessoa bondosa! Obrigado," self.getName "sabia que podia contar com você.")
