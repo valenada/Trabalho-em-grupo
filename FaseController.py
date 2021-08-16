@@ -60,4 +60,4 @@ class FaseController:
         else:
             print("O-oh... Por favor," self._name "Eu preciso de ajuda. O senhor Braulius Maximus é um homem duro." \
                 "Ele vai cortar minha cabeça! Por favor, eu dobro a recompensa." \
-                "*Escolha 1 para aceitar a missão, ou 2 para ir embora (game over).")
+                "*Escolha 1 para aceitar a missão, ou 2 para ir embora (game over)..")
